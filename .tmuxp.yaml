@@ -1,0 +1,9 @@
+session_name: brawlstars
+start_directory: ./
+windows:
+- window_name: terminal
+  panes:
+  - pane
+- window_name: exit
+  panes:
+  - exit

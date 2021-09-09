@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "my-brawlstars"
+version = "0.0.0"
+description = ""
+authors = ["kintsu <k@kintsu.io>"]
+
+[tool.poetry.scripts]
+my-brawlstars = "my_brawlstars:main"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+brawlstars = "^0.3.1"
+python-dotenv = "^0.18.0"
+confuse = "^1.5.0"
+PyYAML = "^5.4.1"
+brawlstats = "^4.1.0"
+
+[tool.poetry.dev-dependencies]
+neovim-remote = "latest"
+black = "latest"
+pylint = "latest"
+rope = "latest"
+pynvim = "latest"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
